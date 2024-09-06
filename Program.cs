@@ -12,10 +12,11 @@ namespace NoviceChallenges
             // Console.WriteLine(MaxOfThree(10, 30, 20));
             // Console.WriteLine(MaxOfThree(30, 20, 10));
             // Console.WriteLine(StringLength("abcdefghijklmnopqrstuvwxyz"));
-            Console.WriteLine(StartsHello("Hello"));
-            Console.WriteLine(StartsHello("Hello everybody. This is simply a test."));
+            // Console.WriteLine(StartsHello("Hello"));
+            // Console.WriteLine(StartsHello("Hello everybody. This is simply a test."));
+            // Console.WriteLine(ReverseString("Is today opposite day or something?"));
+            Console.WriteLine(Factorial(4));
         }
-
         // 1. Return the sum of two numbers.
         public static int Add(int a, int b)
         {
@@ -84,11 +85,11 @@ namespace NoviceChallenges
         public static int Factorial(int n)
         {
             if (n == 0) return 1;
-            for(int i=n-1; i==0; i--) {
+            for(int i=n-1; i>0; i--) {
 n=n*i;
             }
             // TODO: Calculate the factorial.
-            return 0;
+            return n;
         }
 
         // 8. Check if a number is a prime number.
