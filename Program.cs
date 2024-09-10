@@ -7,15 +7,27 @@ namespace NoviceChallenges
         static void Main(string[] args)
         {
             // Use the Main method to test your functions.
-            // Console.WriteLine(Add(10, 10));
-            // Console.WriteLine(MaxOfThree(10, 20, 30));
-            // Console.WriteLine(MaxOfThree(10, 30, 20));
-            // Console.WriteLine(MaxOfThree(30, 20, 10));
-            // Console.WriteLine(StringLength("abcdefghijklmnopqrstuvwxyz"));
-            // Console.WriteLine(StartsHello("Hello"));
-            // Console.WriteLine(StartsHello("Hello everybody. This is simply a test."));
-            // Console.WriteLine(ReverseString("Is today opposite day or something?"));
+            Console.WriteLine(Add(10, 10));
+            Console.WriteLine(MaxOfThree(10, 20, 30));
+            Console.WriteLine(MaxOfThree(10, 30, 20));
+            Console.WriteLine(MaxOfThree(30, 20, 10));
+            Console.WriteLine(StringLength("abcdefghijklmnopqrstuvwxyz"));
+            Console.WriteLine(StartsHello("Hello"));
+            Console.WriteLine(StartsHello("Hello everybody. This is simply a test."));
+            Console.WriteLine(ReverseString("Is today opposite day or something?"));
             Console.WriteLine(Factorial(4));
+            Console.WriteLine(IsPrime(212));
+            Console.WriteLine(Fibonacci(5));
+            Console.WriteLine(Fibonacci(7));
+            int[] intArray={2, 4, 6, 12, 100, 20};
+            Console.WriteLine(LargestInArray(intArray));
+            Console.WriteLine(IsPalindrome("radar"));
+            Console.WriteLine(IsPalindrome("hello"));
+            Console.WriteLine(ArraySum(intArray));
+            Console.WriteLine(CharCount("This is only a test", 's'));
+            Console.WriteLine(CharCount("bbbbbbbbbb", 'b'));
+            Console.WriteLine(ConcatenateStrings("Hi", "there"));
+            Console.WriteLine(SwapEnds("The ends of this string should be swaped."));
         }
         // 1. Return the sum of two numbers.
         public static int Add(int a, int b)
